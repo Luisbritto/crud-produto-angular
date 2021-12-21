@@ -4,9 +4,11 @@
     display: flex;
     justify-content: flex-end;
     height: 50px;
+    background-color: whitesmoke;
 }
 
 .footer > span{
     font-size: 1rem;
     font-weight: 300;
+    color: black;
 }
