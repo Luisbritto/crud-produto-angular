@@ -18,7 +18,7 @@ export class ProductCreateComponent {
   constructor(private productService: ProductService, private router: Router) { }
 
 
-  createProcuct():void{
+  createProduct():void{
     this.productService.create(this.product).subscribe(() => {
 
       this.productService.showMessage('Produto criado!');
