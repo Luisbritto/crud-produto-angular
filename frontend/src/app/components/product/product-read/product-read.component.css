@@ -1,3 +1,14 @@
 table{
     width: 100%;
 }
+
+.edit{
+    margin-right: 10px;
+}
+.edit > em{
+    color: #d9cd26;
+}
+
+.detele > em{
+    color: #e35e6b;
+}

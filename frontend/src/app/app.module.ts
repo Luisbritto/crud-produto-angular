@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
@@ -14,19 +15,15 @@ import {MatListModule} from '@angular/material/list';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import {MatButtonModule} from '@angular/material/button';
-import {MatSnackBar} from '@angular/material/snack-bar';
-
-import {HttpClient} from '@angular/common/http';
 
 import {FormsModule} from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-import { ProductReadComponent } from './components/product/product-read/product-read.component';
-import { ProductTableComponent } from './components/product/product-table/product-table.component';
-import { MatTableModule } from '@angular/material/table';
-import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort';
-import { TableComponent } from './components/product/table/table.component';
+import {ProductReadComponent } from './components/product/product-read/product-read.component';
+import {HttpClientModule} from '@angular/common/http';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
+
 
 
 @NgModule({
@@ -39,8 +36,7 @@ import { TableComponent } from './components/product/table/table.component';
     ProductCrudComponent,
     ProductCreateComponent,
     ProductReadComponent,
-    ProductTableComponent,
-    TableComponent
+
   ],
   imports: [
     BrowserModule,
@@ -51,14 +47,11 @@ import { TableComponent } from './components/product/table/table.component';
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBar,
-    HttpClient,
+    MatSnackBarModule,
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
-    MatTableModule,
-    MatPaginatorModule,
-    MatSortModule
+    HttpClientModule
     
   ],
   providers: [],
