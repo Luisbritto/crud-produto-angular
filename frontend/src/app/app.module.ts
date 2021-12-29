@@ -25,6 +25,7 @@ import {MatToolbarModule } from '@angular/material/toolbar';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatTableModule} from '@angular/material/table';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 
 
@@ -41,6 +42,7 @@ import { ProductUpdateComponent } from './components/product/product-update/prod
     ProductCreateComponent,
     ProductReadComponent,
     ProductUpdateComponent,
+    ProductDeleteComponent,
 
   ],
   imports: [
