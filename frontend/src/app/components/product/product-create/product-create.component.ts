@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class ProductCreateComponent {
 
   product: Product = {
-    name: 'Produto de Teste',
+    name: '',
     price: 0
   }
 

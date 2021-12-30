@@ -9,6 +9,11 @@
       "id": 3,
       "name": "Celular Samsung A20",
       "price": 1080
+    },
+    {
+      "name": "Notebook Mac Pro Ultra 3",
+      "price": "233556",
+      "id": 4
     }
   ]
 }
